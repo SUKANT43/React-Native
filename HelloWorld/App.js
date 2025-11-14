@@ -1,8 +1,16 @@
 import {View,Text,Image, ImageBackground, ScrollView,Button,Pressable,Modal, StatusBar, ActivityIndicator} from 'react-native';
 import { useState } from 'react';
+import Greet from './components/Greet';
 export default function App(){
   function click(){
-    alert('hello')
+    alert('hello',"Dob Incorrect",[
+      {
+        text:'cancel',
+      },
+      {
+        text:'ok'
+      }
+    ])
   }
 const[isLoading,setLoading]=useState(false)
   const[isVisible,setIsModalVisible]=useState(false)
@@ -32,7 +40,17 @@ return(
   <StatusBar backgroundColor="lightgreen" barStyle="dark-content"/>
   <ActivityIndicator size="large" color="midnightBlue"></ActivityIndicator>
   <ActivityIndicator size="large" color="midnightBlue" animating={true}></ActivityIndicator>
-
+  <Button title='alert' onPress={()=>{
+    Alert.alert('hello',"Dob Incorrect",[
+      {
+        text:'cancel',
+      },
+      {
+        text:'ok'
+      }
+    ])
+  }}/>
+  <Greet name="sukant"/>
 </View>
 )
 }
