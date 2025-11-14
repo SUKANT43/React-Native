@@ -2,3 +2,5 @@ npx create-expo-app --template blank -->for creating a react native project
 npm run ios
 npx expo start
 view->this component is just like a div
+Text->for viewing text
+Images->for showing Images
