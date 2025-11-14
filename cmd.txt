@@ -3,4 +3,5 @@ npm run ios
 npx expo start
 view->this component is just like a div
 Text->for viewing text
-Images->for showing Images
+Image->for showing Images
+ImageBackground->for back ground image
