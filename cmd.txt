@@ -5,3 +5,4 @@ view->this component is just like a div
 Text->for viewing text
 Image->for showing Images
 ImageBackground->for back ground image
+Scroll View->scroll view is for scrolling the page
