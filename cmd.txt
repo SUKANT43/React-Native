@@ -8,7 +8,8 @@ ImageBackground->for back ground image
 Scroll View->scroll view is for scrolling the page
 Pressable->this is for pressing a text image whatever it is
 Modal->this is for show some information
-
+StatusBar->Top Bar
+ActivityIndicator->loading and the props are size,color and animating this is for the true or false
 
 events:
 Pressable-> onpress, onlongpress, onpressout
