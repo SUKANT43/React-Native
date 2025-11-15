@@ -57,7 +57,7 @@ const styles=StyleSheet.create(
       backgroundColor:"black",
     },
     darkModeText:{
-      color:"white",
+      color:" ",
       fontWeight:"bold"
     }
   }

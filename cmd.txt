@@ -13,3 +13,4 @@ ActivityIndicator->loading and the props are size,color and animating this is fo
 
 events:
 Pressable-> onpress, onlongpress, onpressout
+alignself,alignitems,justifycontent,flexwrap,alignContent,rowgap,colgap,gap
